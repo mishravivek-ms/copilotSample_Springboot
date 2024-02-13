@@ -23,7 +23,7 @@ Open IntelliJ and download the Java Springboot Project. Add the following depend
 
 Promt will be:
 
-* Promt: #create a connection to the database for H2 database using JDBC URL, username and password.
+* Promt: #create a H2 database connection details
 * Promt: #create a connection for JPA and sql
 * Promt: #create a configuration for H2 console
 
