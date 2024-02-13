@@ -27,7 +27,7 @@ Promt will be:
 * Promt: #create a connection for JPA and sql
 * Promt: #create a configuration for H2 console
 
-## Create an Entiry File
+## Create an Entity File
 
 Promt will be:
 
