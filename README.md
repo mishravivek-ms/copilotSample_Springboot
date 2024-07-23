@@ -23,25 +23,26 @@ Open IntelliJ and download the Java Springboot Project. Add the following depend
 
 Promt will be:
 
-* Promt: #create a H2 database connection details
-* Promt: #create a connection for JPA and sql
-* Promt: #create a configuration for H2 console
+* Prompt: #create a H2 database connection details
+* Prompt: #create a connection for JPA and sql
+* Prompt: #create a configuration for H2 console
 
 ## Create an Entity File
 
 Promt will be:
 
-* Promt: create a Entity class called Tutorial  with the following attributes: id, title, description, published. Make sure ID as a primary key and auto increment.
-* Promt: use lombok to generate getters and setters. use tostring method to print the object.
-* Promt: create a constructor that takes all the properties as arguments
-* Promt: make table name as "tutorials"
+* Prompt: create a Entity class called Tutorial  with the following attributes: id, title, description, published. Make sure ID as a primary key and auto increment.
+* Prompt: use lombok to generate getters and setters. use tostring method to print the object.
+* Prompt: create a constructor that takes all the properties as arguments
+* Prompt: make table name as "tutorials"
+* Prompt: import jakarta.persistence.*;
 * Add Column name on top of each fields like "@Column(name ="
 
 ## Create Repository file 
 
 Promt will be:
 
-* Promt: //Create a Interface named TutorialRepository that extends JpaRepository and has a generic type of Tutorial and Long.
+* Prompt: //Create a Interface named TutorialRepository that extends JpaRepository and has a generic type of Tutorial and Long.
 * Use CopilotChat for create a methods. Name findByPublished and findByTitleContaining
 
 
