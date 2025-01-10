@@ -38,7 +38,7 @@ Promt will be:
 * Prompt: import jakarta.persistence.*;
 * Add Column name on top of each fields like "@Column(name ="
 
-## Create Repository file 
+## Create Repository file. make this static
 
 Promt will be:
 
@@ -51,7 +51,7 @@ Promt will be:
 Promt will be:
 * //Create a class named TutorialController that is annotated with @RestController and @RequestMapping with a value of /api.
 * //Create a method that returns a list of tutorials by published status
-* //Create a method that returns a list of tutorials by title containing a keyword
+* //Create a method that returns a list of tutorials by title containing a keyword.
 
 
 ## Create a POSTMAN request and send request. 
