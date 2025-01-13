@@ -3,15 +3,23 @@ name: Test Workflow
 on:
   workflow_call:
     inputs:
-      some-input:
+      some-input-string:
         description: 'An example input'
         required: true
         default: 'default value'
         type: string
+      some-input-boolean:
+        description: 'Another example input'
+        required: true
+        default: false
+        type: boolean
 
 jobs:
   test_job:
     runs-on: ubuntu-latest
     steps:
       - name: Print Echo Statement
-        run: 'echo This is a test workflow invoked by build.yml with input: ${{ inputs.some-input }}'
+        run: 'echo STRING This is a test workflow invoked by build.yml with input: ${{ inputs.some-input-string }}'
+    
+      - name: Print Echo Statement
+        run: 'echo BOOLEAN This is a test workflow invoked by build.yml with input: ${{ inputs.some-input-boolean }}'
