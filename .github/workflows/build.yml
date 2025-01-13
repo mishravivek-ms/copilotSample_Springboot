@@ -31,3 +31,9 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Test with Maven
       run: mvn test
+
+
+  call-reusable-workflow:
+    uses: ./.github/workflows/test.yml
+    with:
+      some-input: 'hello'

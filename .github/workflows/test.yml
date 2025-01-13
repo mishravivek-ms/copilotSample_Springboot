@@ -1,0 +1,15 @@
+name: Test Workflow
+
+on: workflow_call
+inputs:
+  some-input:
+    description: 'An example input'
+    required: true
+    default: 'default value'
+
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Echo Statement
+        run: 'echo "This is a test workflow invoked by build.yml with input: ${{ inputs.some-input }}"
